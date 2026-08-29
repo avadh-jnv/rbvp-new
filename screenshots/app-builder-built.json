@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Reuleaux Tetrahedron",
+      "hasCanvas": false,
+      "bodyTextLen": 7185,
+      "bodyTextHash": "ce0ce5860db8d83c9903cadd7316962f86cdf894aa1e2187533c1e756c8c40a6",
+      "bodyTextPrefix": "Reuleaux Cover Certificate Introduction Objectives Background Co",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Reuleaux Tetrahedron",
+      "hasCanvas": false,
+      "bodyTextLen": 7185,
+      "bodyTextHash": "ce0ce5860db8d83c9903cadd7316962f86cdf894aa1e2187533c1e756c8c40a6",
+      "bodyTextPrefix": "Reuleaux Cover Certificate Introduction Objectives Background Co",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

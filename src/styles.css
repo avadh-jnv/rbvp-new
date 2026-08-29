@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --font-sans: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+  --color-paper: #f3eee4;
+  --color-paper-deep: #e7dfd0;
+  --color-surface: #fffdf8;
+  --color-ink: #1a2744;
+  --color-ink-soft: #2c3a56;
+  --color-muted: #5e6a80;
+  --color-line: #cfc6b6;
+  --color-navy: #24365c;
+  --color-accent: #3a5278;
+  --color-accent-fg: #f3eee4;
+
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+
+  --shadow-border: 0 0 0 1px rgb(26 39 68 / 0.08), 0 1px 2px -1px rgb(26 39 68 / 0.06),
+    0 2px 4px 0 rgb(26 39 68 / 0.04);
+  --shadow-border-hover: 0 0 0 1px rgb(26 39 68 / 0.14), 0 1px 2px -1px rgb(26 39 68 / 0.08),
+    0 2px 8px 0 rgb(26 39 68 / 0.06);
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    text-wrap: balance;
+    font-family: var(--font-display);
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  img,
+  video {
+    outline: 1px solid rgb(26 39 68 / 0.1);
+    outline-offset: -1px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+.catalogue-rule {
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--color-line), transparent);
+}
+
+.math {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
