@@ -546,7 +546,7 @@ function Footer() {
         <div>
           <p className="font-display text-2xl font-semibold text-ink">Reuleaux Tetrahedron</p>
           <p className="mt-1 font-sans text-sm text-muted">
-            Avadh Prajapati · Ridham Varma · PM SHRI JNV Mehsana
+            Avadh Prajapati · PM SHRI JNV Mehsana
           </p>
         </div>
         <p className="font-sans text-sm text-muted">RBVP 2026–27 · Gujarat</p>
