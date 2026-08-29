@@ -20,7 +20,6 @@ export function Hero() {
           <div className="catalogue-rule my-8" />
           <dl className="grid gap-3 font-sans text-sm">
             <Row term="Team leader" detail="Avadh Prajapati" />
-            <Row term="Co-leader" detail="Ridham Varma" />
             <Row term="School" detail="PM SHRI Jawahar Navodaya Vidyalaya, Mehsana" />
           </dl>
           <div className="mt-8">
